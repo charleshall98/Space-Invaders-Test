@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23828D76220F87AB00FE6E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23828D75220F87AB00FE6E9A /* AppDelegate.swift */; };
+		23828D78220F87AB00FE6E9A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 23828D77220F87AB00FE6E9A /* GameScene.sks */; };
+		23828D7A220F87AB00FE6E9A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 23828D79220F87AB00FE6E9A /* Actions.sks */; };
+		23828D7C220F87AB00FE6E9A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23828D7B220F87AB00FE6E9A /* GameScene.swift */; };
+		23828D7E220F87AB00FE6E9A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23828D7D220F87AB00FE6E9A /* GameViewController.swift */; };
+		23828D81220F87AB00FE6E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23828D7F220F87AB00FE6E9A /* Main.storyboard */; };
+		23828D83220F87AB00FE6E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23828D82220F87AB00FE6E9A /* Assets.xcassets */; };
+		23828D86220F87AB00FE6E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23828D84220F87AB00FE6E9A /* LaunchScreen.storyboard */; };
+		23828D91220F87AB00FE6E9A /* Geo_RunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23828D90220F87AB00FE6E9A /* Geo_RunTests.swift */; };
+		23828D9C220F87AB00FE6E9A /* Geo_RunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23828D9B220F87AB00FE6E9A /* Geo_RunUITests.swift */; };
+		23828DAA22101E5600FE6E9A /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23828DA922101E5600FE6E9A /* theBoldFont.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23828D8D220F87AB00FE6E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23828D6A220F87AB00FE6E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23828D71220F87AB00FE6E9A;
+			remoteInfo = "Geo Run";
+		};
+		23828D98220F87AB00FE6E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23828D6A220F87AB00FE6E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23828D71220F87AB00FE6E9A;
+			remoteInfo = "Geo Run";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23828D72220F87AB00FE6E9A /* Geo Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geo Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23828D75220F87AB00FE6E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23828D77220F87AB00FE6E9A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		23828D79220F87AB00FE6E9A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		23828D7B220F87AB00FE6E9A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		23828D7D220F87AB00FE6E9A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		23828D80220F87AB00FE6E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23828D82220F87AB00FE6E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23828D85220F87AB00FE6E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23828D87220F87AB00FE6E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23828D8C220F87AB00FE6E9A /* Geo RunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geo RunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23828D90220F87AB00FE6E9A /* Geo_RunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo_RunTests.swift; sourceTree = "<group>"; };
+		23828D92220F87AB00FE6E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23828D97220F87AB00FE6E9A /* Geo RunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geo RunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23828D9B220F87AB00FE6E9A /* Geo_RunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo_RunUITests.swift; sourceTree = "<group>"; };
+		23828D9D220F87AB00FE6E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23828DA922101E5600FE6E9A /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23828D6F220F87AB00FE6E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23828D89220F87AB00FE6E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23828D94220F87AB00FE6E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23828D69220F87AB00FE6E9A = {
+			isa = PBXGroup;
+			children = (
+				23828D74220F87AB00FE6E9A /* Geo Run */,
+				23828D8F220F87AB00FE6E9A /* Geo RunTests */,
+				23828D9A220F87AB00FE6E9A /* Geo RunUITests */,
+				23828D73220F87AB00FE6E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23828D73220F87AB00FE6E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23828D72220F87AB00FE6E9A /* Geo Run.app */,
+				23828D8C220F87AB00FE6E9A /* Geo RunTests.xctest */,
+				23828D97220F87AB00FE6E9A /* Geo RunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23828D74220F87AB00FE6E9A /* Geo Run */ = {
+			isa = PBXGroup;
+			children = (
+				23828D75220F87AB00FE6E9A /* AppDelegate.swift */,
+				23828D77220F87AB00FE6E9A /* GameScene.sks */,
+				23828D79220F87AB00FE6E9A /* Actions.sks */,
+				23828D7B220F87AB00FE6E9A /* GameScene.swift */,
+				23828D7D220F87AB00FE6E9A /* GameViewController.swift */,
+				23828DA922101E5600FE6E9A /* theBoldFont.ttf */,
+				23828D7F220F87AB00FE6E9A /* Main.storyboard */,
+				23828D82220F87AB00FE6E9A /* Assets.xcassets */,
+				23828D84220F87AB00FE6E9A /* LaunchScreen.storyboard */,
+				23828D87220F87AB00FE6E9A /* Info.plist */,
+			);
+			path = "Geo Run";
+			sourceTree = "<group>";
+		};
+		23828D8F220F87AB00FE6E9A /* Geo RunTests */ = {
+			isa = PBXGroup;
+			children = (
+				23828D90220F87AB00FE6E9A /* Geo_RunTests.swift */,
+				23828D92220F87AB00FE6E9A /* Info.plist */,
+			);
+			path = "Geo RunTests";
+			sourceTree = "<group>";
+		};
+		23828D9A220F87AB00FE6E9A /* Geo RunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23828D9B220F87AB00FE6E9A /* Geo_RunUITests.swift */,
+				23828D9D220F87AB00FE6E9A /* Info.plist */,
+			);
+			path = "Geo RunUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23828D71220F87AB00FE6E9A /* Geo Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23828DA0220F87AB00FE6E9A /* Build configuration list for PBXNativeTarget "Geo Run" */;
+			buildPhases = (
+				23828D6E220F87AB00FE6E9A /* Sources */,
+				23828D6F220F87AB00FE6E9A /* Frameworks */,
+				23828D70220F87AB00FE6E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geo Run";
+			productName = "Geo Run";
+			productReference = 23828D72220F87AB00FE6E9A /* Geo Run.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23828D8B220F87AB00FE6E9A /* Geo RunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23828DA3220F87AB00FE6E9A /* Build configuration list for PBXNativeTarget "Geo RunTests" */;
+			buildPhases = (
+				23828D88220F87AB00FE6E9A /* Sources */,
+				23828D89220F87AB00FE6E9A /* Frameworks */,
+				23828D8A220F87AB00FE6E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23828D8E220F87AB00FE6E9A /* PBXTargetDependency */,
+			);
+			name = "Geo RunTests";
+			productName = "Geo RunTests";
+			productReference = 23828D8C220F87AB00FE6E9A /* Geo RunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23828D96220F87AB00FE6E9A /* Geo RunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23828DA6220F87AB00FE6E9A /* Build configuration list for PBXNativeTarget "Geo RunUITests" */;
+			buildPhases = (
+				23828D93220F87AB00FE6E9A /* Sources */,
+				23828D94220F87AB00FE6E9A /* Frameworks */,
+				23828D95220F87AB00FE6E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23828D99220F87AB00FE6E9A /* PBXTargetDependency */,
+			);
+			name = "Geo RunUITests";
+			productName = "Geo RunUITests";
+			productReference = 23828D97220F87AB00FE6E9A /* Geo RunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23828D6A220F87AB00FE6E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Charles Hall";
+				TargetAttributes = {
+					23828D71220F87AB00FE6E9A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					23828D8B220F87AB00FE6E9A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 23828D71220F87AB00FE6E9A;
+					};
+					23828D96220F87AB00FE6E9A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 23828D71220F87AB00FE6E9A;
+					};
+				};
+			};
+			buildConfigurationList = 23828D6D220F87AB00FE6E9A /* Build configuration list for PBXProject "Geo Run" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23828D69220F87AB00FE6E9A;
+			productRefGroup = 23828D73220F87AB00FE6E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23828D71220F87AB00FE6E9A /* Geo Run */,
+				23828D8B220F87AB00FE6E9A /* Geo RunTests */,
+				23828D96220F87AB00FE6E9A /* Geo RunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23828D70220F87AB00FE6E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23828D81220F87AB00FE6E9A /* Main.storyboard in Resources */,
+				23828D78220F87AB00FE6E9A /* GameScene.sks in Resources */,
+				23828DAA22101E5600FE6E9A /* theBoldFont.ttf in Resources */,
+				23828D83220F87AB00FE6E9A /* Assets.xcassets in Resources */,
+				23828D86220F87AB00FE6E9A /* LaunchScreen.storyboard in Resources */,
+				23828D7A220F87AB00FE6E9A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23828D8A220F87AB00FE6E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23828D95220F87AB00FE6E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23828D6E220F87AB00FE6E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23828D7C220F87AB00FE6E9A /* GameScene.swift in Sources */,
+				23828D7E220F87AB00FE6E9A /* GameViewController.swift in Sources */,
+				23828D76220F87AB00FE6E9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23828D88220F87AB00FE6E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23828D91220F87AB00FE6E9A /* Geo_RunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23828D93220F87AB00FE6E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23828D9C220F87AB00FE6E9A /* Geo_RunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23828D8E220F87AB00FE6E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23828D71220F87AB00FE6E9A /* Geo Run */;
+			targetProxy = 23828D8D220F87AB00FE6E9A /* PBXContainerItemProxy */;
+		};
+		23828D99220F87AB00FE6E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23828D71220F87AB00FE6E9A /* Geo Run */;
+			targetProxy = 23828D98220F87AB00FE6E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23828D7F220F87AB00FE6E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23828D80220F87AB00FE6E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23828D84220F87AB00FE6E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23828D85220F87AB00FE6E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23828D9E220F87AB00FE6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23828D9F220F87AB00FE6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23828DA1220F87AB00FE6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89P24H72ZS;
+				INFOPLIST_FILE = "Geo Run/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoredWalk.Geo-Run";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23828DA2220F87AB00FE6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89P24H72ZS;
+				INFOPLIST_FILE = "Geo Run/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoredWalk.Geo-Run";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23828DA4220F87AB00FE6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89P24H72ZS;
+				INFOPLIST_FILE = "Geo RunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoredWalk.Geo-RunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geo Run.app/Geo Run";
+			};
+			name = Debug;
+		};
+		23828DA5220F87AB00FE6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89P24H72ZS;
+				INFOPLIST_FILE = "Geo RunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoredWalk.Geo-RunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geo Run.app/Geo Run";
+			};
+			name = Release;
+		};
+		23828DA7220F87AB00FE6E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89P24H72ZS;
+				INFOPLIST_FILE = "Geo RunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoredWalk.Geo-RunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Geo Run";
+			};
+			name = Debug;
+		};
+		23828DA8220F87AB00FE6E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89P24H72ZS;
+				INFOPLIST_FILE = "Geo RunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BoredWalk.Geo-RunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Geo Run";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23828D6D220F87AB00FE6E9A /* Build configuration list for PBXProject "Geo Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23828D9E220F87AB00FE6E9A /* Debug */,
+				23828D9F220F87AB00FE6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23828DA0220F87AB00FE6E9A /* Build configuration list for PBXNativeTarget "Geo Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23828DA1220F87AB00FE6E9A /* Debug */,
+				23828DA2220F87AB00FE6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23828DA3220F87AB00FE6E9A /* Build configuration list for PBXNativeTarget "Geo RunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23828DA4220F87AB00FE6E9A /* Debug */,
+				23828DA5220F87AB00FE6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23828DA6220F87AB00FE6E9A /* Build configuration list for PBXNativeTarget "Geo RunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23828DA7220F87AB00FE6E9A /* Debug */,
+				23828DA8220F87AB00FE6E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23828D6A220F87AB00FE6E9A /* Project object */;
+}
